@@ -1,0 +1,26 @@
+Company: michaelcychan-org
+Application: Coauthor
+ProductDescription: |
+  Product Description Line 1
+  Product Description Line 2
+Market:
+  - EU
+  - UK
+SoftwareClassification:
+  Questions:
+    HazardousSituationPossible: false
+  SafetyClass: A
+  Rationale: |
+    This is a class A rationale
+    This is a class A rationale
+TestingTools:
+  SystemTesting:
+    - Selenium
+    - Cypress
+    - Cucumber
+  SecurityTesting:
+    - ZAP
+    - Burp
+  CompatabilityTesting:
+    - BrowserStack
+    - SauceLabs
