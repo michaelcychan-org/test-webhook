@@ -1,0 +1,56 @@
+name: 🐞 Bug
+description: File a bug/issue
+title: "[BUG] <title>"
+labels: ["type:bug"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Where in the development lifecycle has the bug been found?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: Early development
+        - label: Mid-development
+        - label: Final testing
+        - label: Released software
+  - type: textarea
+    attributes:
+      label: Description of the bug
+      description: |
+        Provide as much detail as possible to aid in the bug understanding.
+        Include customer feedback, screen shots etc.
+  - type: textarea
+    attributes:
+      label: What impact does the bug have on end users using the software?
+      description: For example, a major feature cannot be used, user credentials not recognised.
+  - type: textarea
+    attributes:
+      label: Cause of the bug
+      description: What is the cause of the bug (if known)?
+  - type: textarea
+    attributes:
+      label: Severity and Priority Rationale
+      description: Provide an explanation as to why the severity and priority levels have been given.
+  - type: textarea
+    attributes:
+      label: Bug Review
+      description: |
+        Provide evidence of bug review including name of reviewers(s)
+        If the severity and priority are changed, provide rationale for the change.
+        Is more information required for this bug to be assessed?
+  - type: checkboxes
+    attributes:
+      label: Does the bug need to be rejected?
+      options:
+        - label: "Yes"
+  - type: textarea
+    attributes:
+      label: Please provide a rationale for the bug rejection
+  - type: textarea
+    attributes:
+      label: Please provide a rationale for the bug classification
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Please provide a rationale for System Risk Analysis update
+      
