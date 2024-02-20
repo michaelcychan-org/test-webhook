@@ -7,6 +7,7 @@ ProductDescription: |
 Market:
   - EU
   - UK
+BugTrackingProjectLink: https://github.com/orgs/michaelcychan-org/projects/4
 SoftwareClassification:
   Questions:
     HazardousSituationPossible: false
