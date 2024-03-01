@@ -1,6 +1,7 @@
 ---
 category: qms
 title: Custom Document 1
+parent: mermaid
 ---
 # Custom Document 1
 top level menu  
