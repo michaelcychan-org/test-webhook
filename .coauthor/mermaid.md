@@ -9,19 +9,17 @@ top level menu
 ## Mermaid Diagrams:
 
 ### Sequence
-<div>
-<pre class="mermaid bg-white flex justify-center">
+```mermaid
 sequenceDiagram
     Alice->>+John: Hello John, how are you?
     Alice->>+John: John, can you hear me?
     John-->>-Alice: Hi Alice, I can hear you!
     John-->>-Alice: I feel great!
-</pre>
-</div>
+```
 
 ### ER Diagram
 
-<pre class="mermaid bg-white flex justify-center">
+```mermaid
 erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : has
     CUSTOMER ||--o{ ORDER : places
@@ -31,13 +29,15 @@ erDiagram
     ORDER ||--|{ ORDER-ITEM : includes
     PRODUCT-CATEGORY ||--|{ PRODUCT : contains
     PRODUCT ||--o{ ORDER-ITEM : "ordered in"
-</pre>
+```
 
 ### Git
 
-<pre class="mermaid bg-white flex justify-center">
+```mermaid
 ---
 title: Example Git diagram
+config:
+    theme: forest
 ---
 gitGraph
    commit
@@ -50,19 +50,19 @@ gitGraph
    merge develop
    commit
    commit
-</pre>
+```
 
 ## Pie Chart
 
-<pre class="mermaid bg-white">
+```mermaid
 pie title Pets adopted by volunteers
     "Dogs" : 386
     "Cats" : 85
     "Rats" : 15
-</pre>
+```
 
 ## Mind map
-<pre class="mermaid bg-white">
+```mermaid
 mindmap
   root((mindmap))
     Origins
@@ -80,4 +80,4 @@ mindmap
     Tools
       Pen and paper
       Mermaid
-</pre>
+```
