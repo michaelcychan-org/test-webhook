@@ -33,9 +33,11 @@ erDiagram
 
 ### Git
 
-<pre class="mermaid bg-white flex justify-center">
+```mermaid
 ---
 title: Example Git diagram
+config:
+    theme: forest
 ---
 gitGraph
    commit
@@ -48,7 +50,7 @@ gitGraph
    merge develop
    commit
    commit
-</pre>
+```
 
 ## Pie Chart
 
