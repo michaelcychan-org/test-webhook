@@ -1,6 +1,4 @@
 ---
-category: development
-parent: Illustrations
 title: Mermaid Graphs
 ---
 # Custom Document 1
