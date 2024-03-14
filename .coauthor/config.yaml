@@ -25,3 +25,22 @@ TestingTools:
   CompatabilityTesting:
     - BrowserStack
     - SauceLabs
+Roles:
+  Management:
+    Lead: michaelcychan
+    Members:
+      - michaelcychan
+      - michaelchansecond
+  QARA:
+    Lead: michaelcychan
+    Members:
+      - michaelcychan
+      - michaelchansecond
+  SWDevelopment:
+    Lead: michaelcychan
+    Members:
+      - michaelcychan-org/michaelcychan-org-team
+  Clinical:
+    Lead: michaelchansecond
+    Members:
+      - michaelcychan-org/michaelcychan-org-team
