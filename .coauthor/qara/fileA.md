@@ -4,4 +4,4 @@ category: qara
 ---
 Hello  
 changed module  
-check log
+no blob() and new Unit8Array
