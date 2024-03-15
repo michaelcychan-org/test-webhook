@@ -3,4 +3,4 @@ title: File A
 category: qara
 ---
 Hello  
-check business logics promises  
+check business logics promisesss  
