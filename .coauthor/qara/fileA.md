@@ -2,5 +2,6 @@
 title: File A
 category: qara
 ---
-Hello
-changed module
+Hello  
+changed module  
+check log
