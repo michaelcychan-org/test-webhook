@@ -13,7 +13,7 @@ SoftwareClassification:
   SafetyClass: A
   Rationale: |
     This is a class A rationale
-    This is a class A rationale
+    Line 2
 TestingTools:
   SystemTesting:
     - Selenium
