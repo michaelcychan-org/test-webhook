@@ -6,4 +6,4 @@ Hello
 I don't understand why it doens't work  
 moved role validation to configvalidator  
 check error messages  some other changes?  
-more change  
+more errors should appear  
