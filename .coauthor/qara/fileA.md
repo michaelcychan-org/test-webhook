@@ -4,4 +4,4 @@ category: qara
 ---
 Hello  
 I don't understand why it doens't work  
-fix promises  
+moved role validation to configvalidator  
