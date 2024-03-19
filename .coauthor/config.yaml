@@ -31,7 +31,7 @@ Roles:
     Lead: michaelcychan
     Members:
       - michaelcychan
-      - michaelchansecondd
+      - michaelchansecond
   QARA:
     Lead: michaelcychan
     Members:
@@ -40,8 +40,8 @@ Roles:
   SWDevelopment:
     Lead: michaelcychan
     Members:
-      - michaelcychan-org/michaelcychan-org-teammmm
+      - michaelcychan-org/michaelcychan-org-team
   Clinical:
-    Lead: michaelchansecondd
+    Lead: michaelchansecond
     Members:
       - michaelcychan-org/michaelcychan-org-team
