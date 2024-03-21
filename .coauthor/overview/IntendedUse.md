@@ -1,0 +1,15 @@
+---
+title: Intended Use
+---
+## Intended Use
+this application aims at ....
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rhoncus non tellus sit amet varius. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur in dignissim orci. Aenean ipsum nunc, laoreet eget tempor at, efficitur a velit. Donec ac turpis neque. Sed hendrerit lacus in nisi ornare, vitae sollicitudin neque porttitor. Sed laoreet in purus ut pellentesque. Proin semper consequat massa, sit amet maximus libero cursus quis. Duis felis neque, convallis tristique consectetur at, pretium non quam. Donec pretium, nisl vel porttitor posuere, augue justo convallis tellus, ac tristique magna magna vel dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur ligula mauris, vestibulum vitae congue non, laoreet efficitur ex. Duis luctus mi at est dapibus, sed ultricies urna ultrices. Fusce sit amet nibh urna. Mauris nec eleifend dolor, ac sollicitudin nunc. Duis sit amet velit rhoncus, maximus purus sed, dapibus erat.  
+
+Morbi augue sapien, accumsan eget elementum venenatis, efficitur in felis. Fusce sagittis id leo ut feugiat. Aliquam luctus suscipit risus, nec ultricies augue auctor id. Suspendisse potenti. Vivamus ullamcorper consequat odio quis pretium. Aenean sed elementum est. Vivamus pulvinar ex a neque sodales posuere. Sed pulvinar ante sem. Suspendisse ut viverra ligula. Aenean purus urna, pharetra a ipsum a, vehicula volutpat sem. Pellentesque mollis magna mollis mauris porta bibendum. Duis ut eros et magna vestibulum blandit.  
+
+Duis ac nulla sed nisi aliquam ornare bibendum id tortor. In faucibus tempor sem et tempus. Cras in tincidunt urna. Duis imperdiet dapibus eros non laoreet. Curabitur vitae tempus nisl, ut accumsan felis. Suspendisse vehicula quis risus interdum malesuada. Curabitur vitae congue nunc. Aliquam egestas diam sed mi malesuada imperdiet. Morbi luctus a augue sit amet lobortis. In vestibulum quam in feugiat interdum. Mauris dignissim nulla felis, a tincidunt leo suscipit at.  
+
+Praesent nec venenatis tellus, in viverra libero. Suspendisse ac commodo risus. Nam lobortis nunc non est vestibulum, et dignissim lectus sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce quis nulla ut quam posuere dapibus. Nullam sodales dolor elementum consequat tincidunt. Suspendisse potenti. Ut sit amet nisi ultrices, elementum elit at, varius erat. Sed laoreet ac magna vitae tincidunt. Quisque vehicula diam eu lacus ultrices, sed fringilla dui vestibulum. Ut sed imperdiet ante, a tincidunt orci. Nulla varius vestibulum erat, non tincidunt ligula commodo eget.  
+
+Cras fringilla nulla sed diam vestibulum dictum. Integer pulvinar pulvinar lorem, eget molestie magna egestas in. Aliquam vitae nisi tortor. Duis sollicitudin eu lectus ut iaculis. Morbi ac sodales ex. Cras at consequat dui. Nunc laoreet lacus gravida, placerat arcu eu, condimentum mauris.  
