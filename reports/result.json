@@ -1,0 +1,19 @@
+{
+  "name": "Test Result",
+  "timestamp":  "2019-07-01T00:00:00Z", 
+  "results": [
+    {
+      "name": "Test 1",
+        "status": "pass"
+    },
+    {
+      "name": "Test 2",
+      "status": "fail",
+      "message": "Expected 2 but got 3"
+    },
+    {
+      "name": "Test 3",
+      "status": "pass"
+    }
+  ]
+}
