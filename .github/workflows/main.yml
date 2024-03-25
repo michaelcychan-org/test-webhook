@@ -1,0 +1,22 @@
+on: [push]
+
+permissions:
+  id-token: write
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to say hello
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Hello world action step
+        id: hello-from-test-webhook-repo
+        uses: coauthor-app/capture-action@main
+        with:
+          evidence: 'system-verification'
+          type: 'BDD'
+          format: 'serenity'
+          hostname: 'fwayc8hzl4.execute-api.eu-west-2.amazonaws.com'
+          path: 'reports/**'
