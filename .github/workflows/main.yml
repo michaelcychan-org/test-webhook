@@ -13,7 +13,7 @@ jobs:
         with:
           token: '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'
 
-      - name: Hello world action step
+      - name: Upload Job Testing
         id: hello-from-test-webhook-repo
         uses: coauthor-app/capture-action@main
         with:
