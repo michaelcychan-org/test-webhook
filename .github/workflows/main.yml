@@ -5,7 +5,7 @@ permissions:
   contents: read
 
 jobs:
-  hello_world_job:
+  upload_job:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
