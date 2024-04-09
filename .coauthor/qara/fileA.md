@@ -3,4 +3,4 @@ title: File A
 category: qara
 ---
 Link to [Overview](../overview)  
-check for new build  
+check for new build  let's check the log
