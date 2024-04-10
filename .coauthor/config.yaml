@@ -3,18 +3,6 @@ Application: Coauthor
 ProductDescription: |
   Product Description Line 1
   Product Description Line 2
-Market:
-  - EU
-  - UK
-BugTrackingProjectLink: https://github.com/orgs/michaelcychan-org/projects/1
-SoftwareClassification:
-  Questions:
-    HazardousSituationPossible: false
-  SafetyClass: A
-  Rationale: |
-    This is a class A rationale
-    Line 2  
-    Line 3
 TestingTools:
   SystemTesting:
     - Selenium
