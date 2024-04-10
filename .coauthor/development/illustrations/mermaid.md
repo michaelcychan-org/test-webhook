@@ -1,8 +1,7 @@
 ---
 title: Mermaid Graphs
 ---
-# Custom Document 1
-top level menu  
+# Mermaid Illustrations
 
 ## Mermaid Diagrams:
 
