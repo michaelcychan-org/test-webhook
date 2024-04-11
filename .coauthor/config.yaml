@@ -2,7 +2,7 @@ Company: michaelcychan-org
 Application: Coauthor
 ProductDescription: |
   Product Description Line 1guyg uu
-  Product Description Line 2adsfa
+  Product Description Line 2
 TestingTools:
   SystemTesting:
     - Selenium
