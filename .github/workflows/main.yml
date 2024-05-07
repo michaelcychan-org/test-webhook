@@ -21,5 +21,5 @@ jobs:
           evidence: 'system-verification'
           type: 'BDD'
           format: 'serenity'
-          hostname: 'hqcy8arp5d.execute-api.eu-west-2.amazonaws.com'
+          hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
           path: 'reports/**'
