@@ -15,10 +15,20 @@ jobs:
           token: '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'
 
       - name: Upload Job Testing
-        id: hello-from-test-webhook-repo
+        id: upload-system-ver
         uses: coauthor-app/capture-action@main
         with:
           evidence: 'system-verification'
+          type: 'BDD'
+          format: 'serenity'
+          hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
+          path: 'reports/**'
+
+      - name: Upload Job Testing
+        id: upload-sbom
+        uses: coauthor-app/capture-action@main
+        with:
+          evidence: 'sbom'
           type: 'BDD'
           format: 'serenity'
           hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
