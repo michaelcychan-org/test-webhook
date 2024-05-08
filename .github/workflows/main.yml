@@ -31,7 +31,7 @@ jobs:
           type: 'sbom'
           format: 'cyclonedx'
           hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
-          path: 'reports/sbom/**'
+          path: 'reports/bdd/**'
 
       - name: Upload SBOM
         id: upload-sbom
