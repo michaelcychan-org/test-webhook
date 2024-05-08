@@ -19,27 +19,27 @@ jobs:
         uses: coauthor-app/capture-action@main
         with:
           evidence: 'system-verification'
-          type: 'BDD'
+          type: 'bdd'
           format: 'cucumber+ndjson'
           hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
-          path: 'reports/**'
+          path: 'reports/bdd/**'
       - name: Upload Item Verification Result
         id: upload-item-ver
         uses: coauthor-app/capture-action@main
         with:
           evidence: 'item-verification'
-          type: 'BDD'
-          format: 'cucumber+ndjson'
+          type: 'sbom'
+          format: 'cyclonedx'
           hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
-          path: 'reports/**'
+          path: 'reports/sbom/**'
 
       - name: Upload SBOM
         id: upload-sbom
         uses: coauthor-app/capture-action@main
         with:
-          evidence: 'sbom'
-          type: 'BDD'
+          evidence: 'cybersecurity'
+          type: 'sbom'
           switem: 'moduleA'
-          format: 'serenity'
+          format: 'syft'
           hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
-          path: 'reports/**'
+          path: 'reports/sbom/**'
