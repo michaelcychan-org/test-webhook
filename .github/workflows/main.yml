@@ -20,7 +20,7 @@ jobs:
         with:
           evidence: 'system-verification'
           type: 'BDD'
-          format: 'serenity'
+          format: 'cucumber+ndjson'
           hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
           path: 'reports/**'
       - name: Upload Item Verification Result
@@ -29,7 +29,7 @@ jobs:
         with:
           evidence: 'item-verification'
           type: 'BDD'
-          format: 'serenity'
+          format: 'cucumber+ndjson'
           hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
           path: 'reports/**'
 
