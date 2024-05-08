@@ -40,6 +40,6 @@ jobs:
           evidence: 'cybersecurity'
           type: 'sbom'
           switem: 'moduleA'
-          format: 'syft'
+          format: 'cyclonedx'
           hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
           path: 'reports/sbom/**'
