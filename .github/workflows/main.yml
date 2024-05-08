@@ -28,8 +28,8 @@ jobs:
         uses: coauthor-app/capture-action@main
         with:
           evidence: 'item-verification'
-          type: 'sbom'
-          format: 'cyclonedx'
+          type: 'bdd'
+          format: 'cucumber+ndjson'
           hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
           path: 'reports/bdd/**'
 
