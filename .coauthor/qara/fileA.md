@@ -3,4 +3,4 @@ title: File A
 category: qara
 ---
 Link to [Overview](../overview)  
-new rule
+new rule - added risk register checking
