@@ -3,4 +3,4 @@ title: File A
 category: qara
 ---
 Link to [Overview](../overview)  
-correct function
+intitial function triggers all lambda
