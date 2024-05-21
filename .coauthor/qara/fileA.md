@@ -3,4 +3,4 @@ title: File A
 category: qara
 ---
 Link to [Overview](../overview)  
-refactored soup validation and generation
+refactored soup validation and generation -> visibility
