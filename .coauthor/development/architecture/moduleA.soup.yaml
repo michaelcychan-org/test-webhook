@@ -27,3 +27,12 @@ SOUP:
     VerificationReasoning: |
       Verification Reasoning Line 1
       Verification Reasoning Line 2
+  - PURL: wrong-purl
+    Manufacturer: Baz
+    PackageManager: JavaScript
+    Requirement: |
+      Requirement Line 1
+      Requirement Line 2
+    VerificationReasoning: |
+      Verification Reasoning Line 1
+      Verification Reasoning Line 2
