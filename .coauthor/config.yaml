@@ -33,10 +33,10 @@ Roles:
       - michaelcychan
       - michaelchansecond
   QARA:
-    Lead: michaelcychan
+    Lead: michaelcychan-org
     Members:
-      - michaelcychan
-      - michaelchansecond
+      - michaelcychan-org
+      - michaelchancychan
   SWDevelopment:
     Lead: michaelcychan
     Members:
