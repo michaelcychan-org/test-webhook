@@ -48,8 +48,6 @@ RiskScore:
     - Probability: Remote
       Severity: Considerable
     - Probability: Remote
-      Severity: Significant
-    - Probability: Remote
       Severity: Minor
     - Probability: Improbable
       Severity: Considerable
