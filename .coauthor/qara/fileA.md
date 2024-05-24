@@ -3,4 +3,4 @@ title: File A
 category: qara
 ---
 Link to [Overview](../overview)  
-send again -> should be fixed
+send again -> should be fixed -> removed obsolete event trigger
