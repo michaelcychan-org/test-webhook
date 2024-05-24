@@ -1,2 +1,3 @@
 Risk ID,Software Component,Sequence of events/Failure/Use error,Hazardous situation,Potential Harm to the user/patient,Probability of hazard occurring (P1),Probability of harm occurring (P2),Severity,Overall risk score,Risk Control to be implemented
-1,sw component module 1, this and that happened,some hazards,potentially harming Tom and Jerry,1,1,1,1,Control this and that
+1,sw component module 1, "this and that happened, that also happend. Finally that caused the other! A mess.!",some hazards,potentially harming Tom and Jerry,Catastrophic,Considerable,Occasional,Low,"Control this and that, send notifications, write emails, prepare emergency plans"
+2,sw component module 2, "this and that happened, that also happend. Finally that caused the other! A mess.!",some hazards,potentially harming Tom and Jerry,Catastrophic,Considerable,Occasional,Low,Control this and that
