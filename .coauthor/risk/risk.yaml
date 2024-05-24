@@ -1,0 +1,56 @@
+Probability:
+  - Frequent
+  - Probable
+  - Occasional
+  - Remote
+  - Improbable
+Severity:
+  - Catastrophic
+  - Major
+  - Considerable
+  - Minor
+RiskScore:
+  High:
+    - Probability: Frequent
+      Severity: Catastrophic
+    - Probability: Frequent
+      Severity: Major
+    - Probability: Frequent
+      Severity: Considerable
+    - Probability: Probable
+      Severity: Catastrophic
+    - Probability: Probable
+      Severity: Major
+    - Probability: Probable
+      Severity: Considerable
+    - Probability: Occasional
+      Severity: Catastrophic
+    - Probability: Occasional
+      Severity: Major
+    - Probability: Remote
+      Severity: Catastrophic
+  Medium:
+    - Probability: Occasional
+      Severity: Considerable
+    - Probability: Remote
+      Severity: Major
+    - Probability: Improbable
+      Severity: Catastrophic
+    - Probability: Improbable
+      Severity: Major
+  Low:
+    - Probability: Frequent
+      Severity: Minor
+    - Probability: Probable
+      Severity: Minor
+    - Probability: Occasional
+      Severity: Minor
+    - Probability: Remote
+      Severity: Considerable
+    - Probability: Remote
+      Severity: Minor
+    - Probability: Improbable
+      Severity: Considerable
+    - Probability: Improbable
+      Severity: Minor
+      
