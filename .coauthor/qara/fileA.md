@@ -3,4 +3,4 @@ title: File A
 category: qara
 ---
 Link to [Overview](../overview)  
-send again -> should be fixed -> removed obsolete event trigger -> wth? -> why is it present
+refactored soup validation and generation -> visibility -> fix path -> fix commenter -> hopefully final check -> removed unneessary event
