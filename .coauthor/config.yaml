@@ -6,7 +6,7 @@ ProductDescription: |
 Market:
   - EU
   - UK
-BugTrackingProjectLink: https://github.com/orgs/michaelcychan-org/projects/1
+BugTrackingProjectLink: https://github.com/orgs/michaelcychan-org/projects/1-not-valid-link
 SoftwareClassification:
   Questions:
     HazardousSituationPossible: false
@@ -33,10 +33,10 @@ Roles:
       - michaelcychan
       - michaelchansecond
   QARA:
-    Lead: michaelcychan
+    Lead: michaelcychan-org
     Members:
-      - michaelcychan
-      - michaelchansecond
+      - michaelcychan-org
+      - michaelchancychan
   SWDevelopment:
     Lead: michaelcychan
     Members:
