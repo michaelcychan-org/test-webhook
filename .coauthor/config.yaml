@@ -6,15 +6,13 @@ ProductDescription: |
 Market:
   - EU
   - UK
-BugTrackingProjectLink: https://github.com/orgs/michaelcychan-org/projects/1
 SoftwareClassification:
   Questions:
     HazardousSituationPossible: false
   SafetyClass: A
   Rationale: |
     This is a class A rationale
-    Line 2  
-    Line 3
+    This is a class A rationale
 TestingTools:
   SystemTesting:
     - Selenium
@@ -27,21 +25,32 @@ TestingTools:
     - BrowserStack
     - SauceLabs
 Roles:
+  # Please add/change GitHub usernames to the following roles
   Management:
     Lead: michaelcychan
     Members:
       - michaelcychan
-      - michaelchansecond
+  SWDevelopment:
+    Lead: michaelcychan
+    Members:
+      - michaelcychan
+  Clinical:
+    Lead: michaelcychan
+    Members:
+      - michaelcychan
   QARA:
     Lead: michaelcychan
     Members:
       - michaelcychan
-      - michaelchansecond
-  SWDevelopment:
-    Lead: michaelcychan
-    Members:
-      - michaelcychan-org/michaelcychan-org-team
-  Clinical:
-    Lead: michaelchansecond
-    Members:
-      - michaelcychan-org/michaelcychan-org-team
+SDLC:
+  IssueTracking:
+    Provider: "GitHub"
+    TrackingProjectLink: replace-me-with-bug-tracking-project-link
+  BranchingStrategy: "Feature Branching"
+  CommitMessageFormat: "Conventional Commits"
+  Methodology: "SCRUM"
+  IterationLength: 2
+Security:
+  PenetrationTesting:
+    Required: true
+    Frequency: "Quarterly"
