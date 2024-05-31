@@ -27,7 +27,7 @@ SOUP:
     VerificationReasoning: |
       Verification Reasoning Line 1
       Verification Reasoning Line 2
-  - PURL: wrong-purl
+  - PURL: pkg:npm/baz@12.3.1
     Manufacturer: Baz
     PackageManager: JavaScript
     Requirement: |
