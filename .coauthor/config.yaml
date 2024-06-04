@@ -54,3 +54,15 @@ Security:
   PenetrationTesting:
     Required: true
     Frequency: "Quarterly"
+  SAST:
+    Frequency: Every Build
+    Tools:
+      - Tool 1
+      - Tool 2
+  SBOM:
+    GenerationTools:
+      - Tool A
+      - Tool B
+    MonitoringTools:
+      - Tool C
+    Frequency: Every Build
