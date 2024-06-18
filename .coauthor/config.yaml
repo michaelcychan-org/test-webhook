@@ -4,6 +4,7 @@ ProductDescription: |
   We have launched
   Let's get more features - architecture.yaml
   and more users
+ExtraKey: 'Random Value'
 Market:
   - EU
   - UK
