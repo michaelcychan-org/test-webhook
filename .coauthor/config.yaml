@@ -1,8 +1,10 @@
 Company: Hindsight
 Application: Coauthor
 ProductDescription: |
-  We have been launched
-  Product Description Line 2
+  We have launched
+  Let's get more features - architecture.yaml
+  and more users
+ExtraKey: 'Random Value'
 Market:
   - EU
   - UK
