@@ -4,4 +4,7 @@ Modules:
     ID: module-core
   - Name: Data
     Description: This is the data module
-    ID: module-data    
+    ID: module-data  
+  - Name: Module A
+    Description: This is the data module
+    ID: moduleA
