@@ -2,4 +2,4 @@
 title: File A
 ---
 Link to [Overview](../overview)  
-update loader to copy
+update loader back to default
