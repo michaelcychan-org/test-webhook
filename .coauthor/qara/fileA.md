@@ -2,4 +2,4 @@
 title: File A
 ---
 Link to [Overview](../overview)  
-commit message check
+commit message check --> correct table name
