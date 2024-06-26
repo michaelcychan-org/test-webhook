@@ -2,4 +2,4 @@
 title: File A
 ---
 Link to [Overview](../overview)  
-commit message check --> correct table name --> works now! using package rule, update build.mjs
+commit message check --> correct table name --> works now! using package rule, update build.mjs -> revert
