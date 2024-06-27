@@ -7,14 +7,14 @@ permissions:
 jobs:
   upload_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Upload Job
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Upload System Verification Result
         id: upload-system-ver
-        uses: coauthor-app/capture-action@main
+        uses: coauthor-app/capture-action@v1.0.0
         with:
           evidence: 'system-verification'
           type: 'bdd'
@@ -23,7 +23,7 @@ jobs:
           path: 'reports/bdd/**'
       - name: Upload Item Verification Result
         id: upload-item-ver
-        uses: coauthor-app/capture-action@main
+        uses: coauthor-app/capture-action@v1.0.0
         with:
           evidence: 'item-verification'
           type: 'bdd'
@@ -31,13 +31,24 @@ jobs:
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/bdd/**'
 
-      - name: Upload SBOM
-        id: upload-sbom
-        uses: coauthor-app/capture-action@main
+      - name: Upload SBOM moduleA
+        id: upload-sbom-moduleA
+        uses: coauthor-app/capture-action@v1.0.0
         with:
           evidence: 'cybersecurity'
           type: 'sbom'
           switem: 'moduleA'
+          format: 'cyclonedx'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/sbom/**'
+
+      - name: Upload SBOM module-core
+        id: upload-sbom-module-core
+        uses: coauthor-app/capture-action@v1.0.0
+        with:
+          evidence: 'cybersecurity'
+          type: 'sbom'
+          switem: 'module-core'
           format: 'cyclonedx'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/sbom/**'
