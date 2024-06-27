@@ -40,7 +40,7 @@ jobs:
           switem: 'moduleA'
           format: 'cyclonedx'
           hostname: ${{vars.UPLOAD_JOB}}
-          path: 'reports/sbom/**'
+          path: 'reports/sbom/moduleA.bom.json'
 
       - name: Upload SBOM module-core
         id: upload-sbom-module-core
@@ -51,4 +51,4 @@ jobs:
           switem: 'module-core'
           format: 'cyclonedx'
           hostname: ${{vars.UPLOAD_JOB}}
-          path: 'reports/sbom/**'
+          path: 'reports/sbom/module-core.bom.json'
