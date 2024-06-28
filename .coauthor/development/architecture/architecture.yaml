@@ -4,7 +4,10 @@ Modules:
     ID: module-core
   - Name: Data
     Description: This is the data module
-    ID: module-data  
+    ID: module-data
   - Name: Module A
     Description: This is module A
     ID: moduleA
+  - Name: Data Sub Module
+    Description: This is data sub module
+    ID: module-data/sub-module

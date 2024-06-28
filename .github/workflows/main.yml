@@ -54,3 +54,14 @@ jobs:
           format: 'cyclonedx'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/sbom/module-data.bom.json'
+
+      - name: Upload SBOM module-data-sub-module
+        id: upload-sbom-module-data
+        uses: coauthor-app/capture-action@feature/adds-single-file-upload-support
+        with:
+          evidence: 'cybersecurity'
+          type: 'sbom'
+          switem: 'module-data/sub-module'
+          format: 'cyclonedx'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/sbom/module-data.bom.json'
