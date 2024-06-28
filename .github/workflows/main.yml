@@ -56,7 +56,7 @@ jobs:
           path: 'reports/sbom/module-data.bom.json'
 
       - name: Upload SBOM module-data-sub-module
-        id: upload-sbom-module-data
+        id: upload-sbom-module-data-sub-module
         uses: coauthor-app/capture-action@feature/adds-single-file-upload-support
         with:
           evidence: 'cybersecurity'
