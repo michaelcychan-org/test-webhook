@@ -23,15 +23,6 @@ jobs:
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/sbom/moduleA.bom.json'
 
-      - name: Upload System Verification Result
-        id: upload-system-ver
-        uses: coauthor-app/capture-action@v1.0.0
-        with:
-          evidence: 'system-verification'
-          type: 'bdd'
-          format: 'cucumber+ndjson'
-          hostname: ${{vars.UPLOAD_JOB}}
-          path: 'reports/bdd/**'
       - name: Upload Item Verification Result
         id: upload-item-ver
         uses: coauthor-app/capture-action@v1.0.0
@@ -41,6 +32,17 @@ jobs:
           format: 'cucumber+ndjson'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/bdd/**'
+
+      - name: Upload System Verification Result
+        id: upload-system-ver
+        uses: coauthor-app/capture-action@v1.0.0
+        with:
+          evidence: 'system-verification'
+          type: 'bdd'
+          format: 'cucumber+ndjson'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/bdd/**'
+
 
       - name: Upload SBOM module-core
         id: upload-sbom-module-core
