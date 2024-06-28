@@ -12,17 +12,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Upload SBOM moduleA
-        id: upload-sbom-moduleA
-        uses: coauthor-app/capture-action@feature/adds-single-file-upload-support
-        with:
-          evidence: 'cybersecurity'
-          type: 'sbom'
-          switem: 'moduleA'
-          format: 'cyclonedx'
-          hostname: ${{vars.UPLOAD_JOB}}
-          path: 'reports/sbom/moduleA.bom.json'
-
       - name: Upload Item Verification Result
         id: upload-item-ver
         uses: coauthor-app/capture-action@v1.0.0
@@ -33,16 +22,16 @@ jobs:
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/bdd/**'
 
-      - name: Upload System Verification Result
-        id: upload-system-ver
-        uses: coauthor-app/capture-action@v1.0.0
+      - name: Upload SBOM moduleA
+        id: upload-sbom-moduleA
+        uses: coauthor-app/capture-action@feature/adds-single-file-upload-support
         with:
-          evidence: 'system-verification'
-          type: 'bdd'
-          format: 'cucumber+ndjson'
+          evidence: 'cybersecurity'
+          type: 'sbom'
+          switem: 'moduleA'
+          format: 'cyclonedx'
           hostname: ${{vars.UPLOAD_JOB}}
-          path: 'reports/bdd/**'
-
+          path: 'reports/sbom/moduleA.bom.json'
 
       - name: Upload SBOM module-core
         id: upload-sbom-module-core
