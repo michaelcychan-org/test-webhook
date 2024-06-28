@@ -14,7 +14,7 @@ jobs:
 
       - name: Upload Item Verification Result
         id: upload-item-ver
-        uses: coauthor-app/capture-action@main
+        uses: coauthor-app/capture-action@v1
         with:
           evidence: 'item-verification'
           type: 'bdd'
@@ -24,7 +24,7 @@ jobs:
 
       - name: Upload SBOM moduleA
         id: upload-sbom-moduleA
-        uses: coauthor-app/capture-action@main
+        uses: coauthor-app/capture-action@v1
         with:
           evidence: 'cybersecurity'
           type: 'sbom'
@@ -35,7 +35,7 @@ jobs:
 
       - name: Upload SBOM module-core
         id: upload-sbom-module-core
-        uses: coauthor-app/capture-action@main
+        uses: coauthor-app/capture-action@v1.0.1
         with:
           evidence: 'cybersecurity'
           type: 'sbom'
@@ -46,7 +46,7 @@ jobs:
 
       - name: Upload SBOM module-data
         id: upload-sbom-module-data
-        uses: coauthor-app/capture-action@main
+        uses: coauthor-app/capture-action@v1
         with:
           evidence: 'cybersecurity'
           type: 'sbom'
