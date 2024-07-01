@@ -3,7 +3,7 @@ Modules:
     Description: This is the core module
     ID: module-core
   - Name: Data
-    Description: This is the data module
+    Description: This is the data module description
     ID: module-data
   - Name: Module A
     Description: This is module A description
