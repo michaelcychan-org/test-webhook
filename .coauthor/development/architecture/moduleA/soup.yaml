@@ -1,6 +1,6 @@
 Name: Module A
 SOUP:
-  - PUR: pkg:npm/to-array@0.1.4
+  - PURL: pkg:npm/to-array@0.1.4
     Name: To Array
     Manufacturer: Raynos
     PackageManager: Java
