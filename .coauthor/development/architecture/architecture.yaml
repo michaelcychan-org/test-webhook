@@ -1,6 +1,6 @@
 Modules:
   - Name: Core
-    Description: This is the core module description
+    Description: This is core module description
     ID: module-core
   - Name: Data
     Description: This is the data module description
