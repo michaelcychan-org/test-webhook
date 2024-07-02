@@ -6,5 +6,5 @@ Modules:
     Description: This is data module description.
     ID: module-data
   - Name: Module A
-    Description: This is module A description.
+    Description: This is module A description
     ID: moduleA
