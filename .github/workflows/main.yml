@@ -34,6 +34,17 @@ jobs:
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/item/data/**'
 
+      - name: Upload Item Verification Result
+        id: upload-item-ver-moduleA
+        uses: coauthor-app/capture-action@v1
+        with:
+          evidence: 'item-verification'
+          type: 'test'
+          switem: 'moduleA'
+          format: 'junit'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/item/core/**'
+
       - name: Upload SBOM moduleA
         id: upload-sbom-moduleA
         uses: coauthor-app/capture-action@v1
