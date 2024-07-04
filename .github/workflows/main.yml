@@ -18,9 +18,10 @@ jobs:
         with:
           evidence: 'item-verification'
           type: 'bdd'
-          format: 'cucumber+ndjson'
+          switem: 'core'
+          format: 'junit'
           hostname: ${{vars.UPLOAD_JOB}}
-          path: 'reports/bdd/**'
+          path: 'reports/item/core/**'
 
       - name: Upload SBOM moduleA
         id: upload-sbom-moduleA
