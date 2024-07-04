@@ -17,8 +17,8 @@ jobs:
         uses: coauthor-app/capture-action@v1
         with:
           evidence: 'item-verification'
-          type: 'bdd'
-          switem: 'core'
+          type: 'test'
+          switem: 'module-core'
           format: 'junit'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/item/core/**'
