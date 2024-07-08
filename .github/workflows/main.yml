@@ -45,6 +45,16 @@ jobs:
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/item/core/**'
 
+      - name: Upload System Verification Result
+        id: upload-sys-ver-moduleA
+        uses: coauthor-app/capture-action@v1
+        with:
+          evidence: 'system-verification'
+          type: 'test'
+          format: 'cucumber+ndjson'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/bdd/**'
+
       - name: Upload SBOM moduleA
         id: upload-sbom-moduleA
         uses: coauthor-app/capture-action@v1
