@@ -1,10 +1,10 @@
 Modules:
   - Name: Core
-    Description: This is the core module
+    Description: This is core module description.
     ID: module-core
   - Name: Data
-    Description: This is the data module
-    ID: module-data  
+    Description: This is data module description.
+    ID: module-data
   - Name: Module A
-    Description: This is module A
+    Description: This is module A description.
     ID: moduleA

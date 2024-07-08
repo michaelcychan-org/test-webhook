@@ -1,0 +1,17 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "to-array": "0.1.4"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "unit": "jest --silent"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

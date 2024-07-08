@@ -7,37 +7,83 @@ permissions:
 jobs:
   upload_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Upload Job
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
-      - name: Upload System Verification Result
-        id: upload-system-ver
-        uses: coauthor-app/capture-action@v0.1.0-beta
-        with:
-          evidence: 'system-verification'
-          type: 'bdd'
-          format: 'cucumber+ndjson'
-          hostname: ${{vars.UPLOAD_JOB}}
-          path: 'reports/bdd/**'
+
       - name: Upload Item Verification Result
-        id: upload-item-ver
-        uses: coauthor-app/capture-action@v0.1.0-beta
+        id: upload-item-ver-core
+        uses: coauthor-app/capture-action@v1
         with:
           evidence: 'item-verification'
-          type: 'bdd'
+          type: 'test'
+          switem: 'module-core'
+          format: 'junit'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/item/core/**'
+
+      - name: Upload Item Verification Result
+        id: upload-item-ver-data
+        uses: coauthor-app/capture-action@v1
+        with:
+          evidence: 'item-verification'
+          type: 'test'
+          switem: 'module-data'
+          format: 'junit'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/item/data/**'
+
+      - name: Upload Item Verification Result
+        id: upload-item-ver-moduleA
+        uses: coauthor-app/capture-action@v1
+        with:
+          evidence: 'item-verification'
+          type: 'test'
+          switem: 'moduleA'
+          format: 'junit'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/item/core/**'
+
+      - name: Upload System Verification Result
+        id: upload-sys-ver-moduleA
+        uses: coauthor-app/capture-action@v1
+        with:
+          evidence: 'system-verification'
+          type: 'test'
           format: 'cucumber+ndjson'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/bdd/**'
 
-      - name: Upload SBOM
-        id: upload-sbom
-        uses: coauthor-app/capture-action@v0.1.0-beta
+      - name: Upload SBOM moduleA
+        id: upload-sbom-moduleA
+        uses: coauthor-app/capture-action@v1
         with:
           evidence: 'cybersecurity'
           type: 'sbom'
           switem: 'moduleA'
           format: 'cyclonedx'
-          hostname: 'nll3vb6d1l.execute-api.eu-west-2.amazonaws.com'
-          path: 'reports/sbom/**'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/sbom/moduleA.bom.json'
+
+      - name: Upload SBOM module-core
+        id: upload-sbom-module-core
+        uses: coauthor-app/capture-action@v1.0.1
+        with:
+          evidence: 'cybersecurity'
+          type: 'sbom'
+          switem: 'module-core'
+          format: 'cyclonedx'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/sbom/module-core.bom.json'
+
+      - name: Upload SBOM module-data
+        id: upload-sbom-module-data
+        uses: coauthor-app/capture-action@v1
+        with:
+          evidence: 'cybersecurity'
+          type: 'sbom'
+          switem: 'module-data'
+          format: 'cyclonedx'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/sbom/module-data.bom.json'

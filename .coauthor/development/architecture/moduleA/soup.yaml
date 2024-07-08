@@ -1,8 +1,9 @@
-Name: Module B
+Name: Module A
 SOUP:
-  - PURL: pkg:npm/baz@12.3.1
-    Manufacturer: Baz
-    PackageManager: JavaScript
+  - PURL: pkg:npm/to-array@0.1.4
+    Name: To Array
+    Manufacturer: Raynos
+    PackageManager: Java
     Requirement: |
       Requirement Line 1
       Requirement Line 2
