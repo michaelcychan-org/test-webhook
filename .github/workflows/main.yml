@@ -92,8 +92,8 @@ jobs:
         id: wrong-upload-setting
         uses: coauthor-app/capture-action@v1
         with:
-          evidence: 'cybersecurity'
-          type: 'test'
-          format: 'cucumber+ndjson'
+          evidence: 'system-verification'
+          type: 'sbom'
+          format: 'cyclonedx'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/sbom/module-data.bom.json'
