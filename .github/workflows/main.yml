@@ -87,3 +87,13 @@ jobs:
           format: 'cyclonedx'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/sbom/module-data.bom.json'
+
+      - name: Wrong upload setting
+        id: wrong-upload-setting
+        uses: coauthor-app/capture-action@v1
+        with:
+          evidence: 'cybersecurity'
+          type: 'test'
+          format: 'cucumber+ndjson'
+          hostname: ${{vars.UPLOAD_JOB}}
+          path: 'reports/sbom/module-data.bom.json'
