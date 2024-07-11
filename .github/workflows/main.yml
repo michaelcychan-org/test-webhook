@@ -88,12 +88,13 @@ jobs:
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/sbom/module-data.bom.json'
 
-      - name: Wrong upload setting
-        id: wrong-upload-setting
+      - name: No Module Item Verification Result
+        id: upload-item-ver-no-module
         uses: coauthor-app/capture-action@v1
         with:
-          evidence: 'system-verification'
-          type: 'sbom'
-          format: 'cyclonedx'
+          evidence: 'item-verification'
+          type: 'test'
+          switem: 'no-this-module'
+          format: 'junit'
           hostname: ${{vars.UPLOAD_JOB}}
-          path: 'reports/sbom/module-data.bom.json'
+          path: 'reports/item/core/**'
