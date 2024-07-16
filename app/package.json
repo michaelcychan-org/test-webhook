@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "type": "module",
   "dependencies": {
-    "to-array": "0.1.4"
+    "array-toolkit": "3.4.4"
   },
   "scripts": {
     "type-check": "tsc --noEmit",
