@@ -1,35 +1,71 @@
 Name: Data Module
 SOUP:
-  - PURL: pkg:maven/org.springframework.integration/spring-integration-jms@5.5.5
+  - PURL: pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@3.0.6?type=jar
     Manufacturer: Spring
-    PackageManager: Java
+    PackageManager: Maven
     Requirement: |
       Requirement Line 1
       Requirement Line 2
     VerificationReasoning: |
       Verification Reasoning Line 1
       Verification Reasoning Line 2
-  - PURL: pkg:npm/foobar@12.3.1
+  - PURL: pkg:maven/org.springframework.boot/spring-boot-starter-web@3.0.6
     Manufacturer: Foo
-    PackageManager: JavaScript
+    PackageManager: Maven
     Requirement: |
       Requirement Line 1
       Requirement Line 2
     VerificationReasoning: |
       Verification Reasoning Line 1
       Verification Reasoning Line 2
-  - PURL: pkg:npm/bazqux@12.3.1
-    Manufacturer: Baz
-    PackageManager: JavaScript
+  - PURL: pkg:maven/com.google.code.gson/gson@2.10.1
+    Manufacturer: Google
+    PackageManager: Maven
     Requirement: |
       Requirement Line 1
       Requirement Line 2
     VerificationReasoning: |
       Verification Reasoning Line 1
       Verification Reasoning Line 2
-  - PURL: pkg:npm/baz@12.3.1
+  - PURL: pkg:maven/com.h2database/h2@2.1.214
     Manufacturer: Baz
-    PackageManager: JavaScript
+    PackageManager: Maven
+    Requirement: |
+      Requirement Line 1
+      Requirement Line 2
+    VerificationReasoning: |
+      Verification Reasoning Line 1
+      Verification Reasoning Line 2
+  - PURL: pkg:maven/org.springframework.boot/spring-boot-starter-test@3.0.6
+    Manufacturer: Baz
+    PackageManager: Maven
+    Requirement: |
+      Requirement Line 1
+      Requirement Line 2
+    VerificationReasoning: |
+      Verification Reasoning Line 1
+      Verification Reasoning Line 2
+  - PURL: pkg:maven/org.mockito/mockito-core@4.8.1
+    Manufacturer: Baz
+    PackageManager: Maven
+    Requirement: |
+      Requirement Line 1
+      Requirement Line 2
+    VerificationReasoning: |
+      Verification Reasoning Line 1
+      Verification Reasoning Line 2
+  - PURL: pkg:maven/junit/junit@4.13.2
+    Manufacturer: Baz
+    PackageManager: Maven
+    Requirement: |
+      Requirement Line 1
+      Requirement Line 2
+    VerificationReasoning: |
+      Verification Reasoning Line 1
+      Verification Reasoning Line 2
+  - PURL: pkg:maven/org.mockito/mockito-core@3.+
+    Manufacturer: Baz
+    PackageManager: Maven
     Requirement: |
       Requirement Line 1
       Requirement Line 2

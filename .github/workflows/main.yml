@@ -87,3 +87,14 @@ jobs:
           format: 'cyclonedx'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/sbom/module-data.bom.json'
+
+#      - name: No Module Item Verification Result
+#        id: upload-item-ver-no-module
+#        uses: coauthor-app/capture-action@v1
+#        with:
+#          evidence: 'item-verification'
+#          type: 'test'
+#          switem: 'no-this-module'
+#          format: 'junit'
+#          hostname: ${{vars.UPLOAD_JOB}}
+#          path: 'reports/item/core/**'

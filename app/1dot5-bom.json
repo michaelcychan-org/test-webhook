@@ -1,0 +1,199 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "serialNumber": "urn:uuid:676dd777-c16c-4abd-b6de-08a1a99904ae",
+  "metadata": {
+    "timestamp": "2024-07-12T13:52:18.467Z",
+    "tools": [
+      {
+        "name": "npm",
+        "version": "9.8.1"
+      },
+      {
+        "vendor": "@cyclonedx",
+        "name": "cyclonedx-npm",
+        "version": "1.19.0",
+        "externalReferences": [
+          {
+            "url": "git+https://github.com/CycloneDX/cyclonedx-node-npm.git",
+            "type": "vcs",
+            "comment": "as detected from PackageJson property \"repository.url\""
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-node-npm#readme",
+            "type": "website",
+            "comment": "as detected from PackageJson property \"homepage\""
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-node-npm/issues",
+            "type": "issue-tracker",
+            "comment": "as detected from PackageJson property \"bugs.url\""
+          }
+        ]
+      },
+      {
+        "vendor": "@cyclonedx",
+        "name": "cyclonedx-library",
+        "version": "6.10.0",
+        "externalReferences": [
+          {
+            "url": "git+https://github.com/CycloneDX/cyclonedx-javascript-library.git",
+            "type": "vcs",
+            "comment": "as detected from PackageJson property \"repository.url\""
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-javascript-library#readme",
+            "type": "website",
+            "comment": "as detected from PackageJson property \"homepage\""
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-javascript-library/issues",
+            "type": "issue-tracker",
+            "comment": "as detected from PackageJson property \"bugs.url\""
+          }
+        ]
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "simple-app",
+      "version": "1.0.0",
+      "bom-ref": "simple-app@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/simple-app@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "array-toolkit",
+      "version": "3.4.4",
+      "bom-ref": "array-toolkit@3.4.4",
+      "author": "Renick Bell, Steve Wang, Yiler Huang",
+      "description": "Some dope tools for Javascript array manipulation.",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/array-toolkit@3.4.4",
+      "externalReferences": [
+        {
+          "url": "git+https://github.com/renickbell/array-toolkit.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/renickbell/arrayToolkit#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        },
+        {
+          "url": "https://github.com/renickbell/arrayToolkit/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "https://registry.npmjs.org/array-toolkit/-/array-toolkit-3.4.4.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "28169d3723e2d57d67cf198556e16245a411826d7c67858d1fe838f8f9dc4a5ca88a360e436975a7e1c356f01492e58ce4932460b4a7af771db16da3a9d16814"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/array-toolkit"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "ramda",
+      "version": "0.28.0",
+      "bom-ref": "ramda@0.28.0",
+      "author": "Scott Sauyet",
+      "description": "A practical functional library for JavaScript programmers.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ramda@0.28.0",
+      "externalReferences": [
+        {
+          "url": "git://github.com/ramda/ramda.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://ramdajs.com/",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        },
+        {
+          "url": "https://github.com/ramda/ramda/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "https://registry.npmjs.org/ramda/-/ramda-0.28.0.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "f509cbb86fe43d5816bcc43868e0e1b0150528e5269db527b125c00aff8d09065c1db79bfaff0ba1da7c395c6d4542cdd7fc4ec982cb68bea7a44e9d32ae504c"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/ramda"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "simple-app@1.0.0",
+      "dependsOn": [
+        "array-toolkit@3.4.4"
+      ]
+    },
+    {
+      "ref": "array-toolkit@3.4.4",
+      "dependsOn": [
+        "ramda@0.28.0"
+      ]
+    },
+    {
+      "ref": "ramda@0.28.0"
+    }
+  ]
+}
