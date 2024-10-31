@@ -47,7 +47,7 @@ Roles:
 SDLC:
   IssueTracking:
     Provider: "GitHub"
-    TrackingProjectLink: https://github.com/orgs/michaelcychan-org/projects/134
+    TrackingProjectLink: https://github.com/orgs/michaelcychan-org/projects/14
   BranchingStrategy: "Feature Branching"
   CommitMessageFormat: "Conventional Commits"
   Methodology: "SCRUM"
