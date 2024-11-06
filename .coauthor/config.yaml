@@ -22,7 +22,7 @@ TestingTools:
   SecurityTesting:
     - ZAP
     - Burp
-  CompatabilityTesting:
+  CompatibilityTesting:
     - BrowserStack
     - SauceLabs
 Roles:
