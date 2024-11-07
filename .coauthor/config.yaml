@@ -22,7 +22,7 @@ TestingTools:
   SecurityTesting:
     - ZAP
     - Burp
-  CompatibilityTesting:
+  CompatabilityTesting:
     - BrowserStack
     - SauceLabs
 Roles:
@@ -45,6 +45,9 @@ Roles:
     Members:
       - michaelcychan-org/michaelcychan-org-team
 SDLC:
+  IssueTracking:
+    Provider: "GitHub"
+    TrackingProjectLink: https://github.com/orgs/michaelcychan-org/projects/1
   BranchingStrategy: "Feature Branching"
   CommitMessageFormat: "Conventional Commits"
   Methodology: "SCRUM"
@@ -53,7 +56,3 @@ Security:
   PenetrationTesting:
     Required: true
     Frequency: "Quarterly"
-RequirementManagement:
-  Jira:
-      BaseURL: https://michael-test-ca.atlassian.net
-      ProjectKey: CMK
