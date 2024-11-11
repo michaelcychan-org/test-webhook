@@ -6,3 +6,4 @@ title: File A
 
 Link to First tab: [Overview](../overview)  
 fetch and save...
+try getContent with directory
