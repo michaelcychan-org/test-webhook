@@ -1,0 +1,391 @@
+{
+  "artifacts": [
+    {
+      "id": "b80a668ae505248e",
+      "name": "array-toolkit",
+      "version": "3.4.4",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "GPL-3.0",
+          "spdxExpression": "GPL-3.0-only",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:array-toolkit:array-toolkit:3.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:array-toolkit:array_toolkit:3.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:array_toolkit:array-toolkit:3.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:array_toolkit:array_toolkit:3.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:array:array-toolkit:3.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:array:array_toolkit:3.4.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/array-toolkit@3.4.4",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/array-toolkit/-/array-toolkit-3.4.4.tgz",
+        "integrity": "sha512-KBadNyPi1X1nzxmFVuFiRaQRgm18Z4WNH+g4+PncSlyoijYOQ2l1p+HDVvAUkuWM5JMkYLSnr3cdsW2jqdFoFA=="
+      }
+    },
+    {
+      "id": "2e5e6d7795f16ff6",
+      "name": "ramda",
+      "version": "0.28.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ramda:ramda:0.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/ramda@0.28.0",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/ramda/-/ramda-0.28.0.tgz",
+        "integrity": "sha512-9QnLuG/kPVgWvMQ4aODhsBUFKOUmnbUnsSXACv+NCQZcHbeb+v8Lodp8OVxtRULN1/xOyYLLaL6npE6dMq5QTA=="
+      }
+    },
+    {
+      "id": "0652ea07bb3784a7",
+      "name": "simple-app",
+      "version": "1.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "ISC",
+          "spdxExpression": "ISC",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:simple-app:simple-app:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:simple-app:simple_app:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:simple_app:simple-app:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:simple_app:simple_app:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:simple:simple-app:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:simple:simple_app:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/simple-app@1.0.0",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "",
+        "integrity": ""
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "0652ea07bb3784a7",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by"
+    },
+    {
+      "parent": "2e5e6d7795f16ff6",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by"
+    },
+    {
+      "parent": "b80a668ae505248e",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by"
+    },
+    {
+      "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+      "child": "0652ea07bb3784a7",
+      "type": "contains"
+    },
+    {
+      "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+      "child": "2e5e6d7795f16ff6",
+      "type": "contains"
+    },
+    {
+      "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+      "child": "b80a668ae505248e",
+      "type": "contains"
+    }
+  ],
+  "files": [
+    {
+      "id": "fd71c2238fc07657",
+      "location": {
+        "path": "/package-lock.json"
+      }
+    }
+  ],
+  "source": {
+    "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+    "name": ".",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "."
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.9.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "dotnet-deps-cataloger",
+          "dotnet-portable-executable-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-store-cataloger",
+          "php-composer-lock-cataloger",
+          "php-pecl-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "swift-package-manager-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "java-binary-openjdk",
+          "java-binary-ibm",
+          "java-binary-oracle",
+          "java-binary-graalvm",
+          "java-binary-jdk",
+          "nodejs-binary",
+          "go-binary-hint",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-cli-binary",
+          "php-fpm-binary",
+          "php-apache-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "consul-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary"
+        ],
+        "golang": {
+          "local-mod-cache-dir": "/Users/michael/go/pkg/mod",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": true,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-remote-licenses": false
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "max-parent-recursive-depth": 5,
+          "use-network": false
+        },
+        "javascript": {
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "python": {
+          "guess-unpinned-requirements": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.0.14",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.0.14.json"
+  }
+}
