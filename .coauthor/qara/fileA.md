@@ -4,5 +4,4 @@ title: File A
 
 # Hello!
 
-Link to First tab: [Overview](../overview)  
-event wrapper... commit message lambda...
+Link to First tab: [Overview](../overview)   commit message lambda...
