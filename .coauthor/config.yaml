@@ -49,7 +49,7 @@ SDLC:
     Provider: "GitHub"
     TrackingProjectLink: https://github.com/orgs/michaelcychan-org/projects/1
   BranchingStrategy: "Feature Branching"
-  CommitMessageFormat: "Conventional Commits"
+  # CommitMessageFormat: "Conventional Commits"
   Methodology: "SCRUM"
   IterationLength: 2
 Security:
