@@ -9,7 +9,7 @@ Market:
 SoftwareClassification:
   Questions:
     HazardousSituationPossible: false
-  SafetyClass: B
+  SafetyClass: A
   Rationale: |
     This is a class A rationale
     Line 2  
