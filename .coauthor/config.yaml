@@ -29,7 +29,7 @@ Roles:
   Management:
     Lead: michaelcychan
     Members:
-      - michaelcychan
+      - michaelcychan-not-a-user
       - michaelchansecond
   QARA:
     Lead: michaelcychan
