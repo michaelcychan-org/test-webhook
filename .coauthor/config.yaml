@@ -22,7 +22,7 @@ TestingTools:
   SecurityTesting:
     - ZAP
     - Burp
-  CompatabilityTesting:
+  CompatibilityTesting:
     - BrowserStack
     - SauceLabs
 Roles:
@@ -47,11 +47,14 @@ Roles:
 SDLC:
   IssueTracking:
     Provider: "GitHub"
-    TrackingProjectLink: https://github.com/orgs/michaelcychan-org/projects/1
+    TrackingProjectLink: 
   BranchingStrategy: "Feature Branching"
   CommitMessageFormat: "Conventional Commits"
   Methodology: "SCRUM"
   IterationLength: 2
+RequirementManagement:
+  GitHub:
+    ProjectLink: https://github.com/orgs/michaelcychan-org/projects/1
 Security:
   PenetrationTesting:
     Required: true
