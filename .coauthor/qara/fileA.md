@@ -5,4 +5,4 @@ title: File A
 # Hello!
 
 Link to First tab: [Overview](../overview)  
-check path for no config chagne
+check path for no config change
