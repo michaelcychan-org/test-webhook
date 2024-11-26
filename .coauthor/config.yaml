@@ -52,7 +52,7 @@ SDLC:
   IterationLength: 2
 RequirementManagement:
   GitHub:
-    ProjectLink: https://github.com/orgs/michaelcychan-org/projects/1
+    ProjectLink: https://github.com/orgs/michaelcychan-org/projects/100
 Security:
   PenetrationTesting:
     Required: true
