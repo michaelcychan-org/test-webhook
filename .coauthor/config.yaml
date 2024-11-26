@@ -53,7 +53,7 @@ SDLC:
 RequirementManagement:
   Jira:
     BaseURL: https://michael-test-ca.atlassian.net
-    ProjectKey: 'CMK'
+    ProjectKey: 'NIL'
 Security:
   PenetrationTesting:
     Required: true
