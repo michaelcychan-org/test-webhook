@@ -51,9 +51,8 @@ SDLC:
   Methodology: "SCRUM"
   IterationLength: 2
 RequirementManagement:
-  Jira:
-    BaseURL: https://michael-test-ca.atlassian.net
-    ProjectKey: 'NIL'
+  "GitHub":
+    ProjectLink: https://github.com/orgs/michaelcychan-org/projects/1
 Security:
   PenetrationTesting:
     Required: true
