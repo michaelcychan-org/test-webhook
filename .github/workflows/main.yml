@@ -16,8 +16,8 @@ jobs:
         id: upload-item-ver-core
         uses: coauthor-app/capture-action@v1
         with:
-          evidence: 'item-verification'
-          type: 'test'
+          evidence: 'unit-verification'
+          type: 'unit-test'
           switem: 'module-core'
           format: 'junit'
           hostname: ${{vars.UPLOAD_JOB}}
@@ -27,8 +27,8 @@ jobs:
         id: upload-item-ver-data
         uses: coauthor-app/capture-action@v1
         with:
-          evidence: 'item-verification'
-          type: 'test'
+          evidence: 'unit-verification'
+          type: 'unit-test'
           switem: 'module-data'
           format: 'junit'
           hostname: ${{vars.UPLOAD_JOB}}
@@ -38,8 +38,8 @@ jobs:
         id: upload-item-ver-moduleA
         uses: coauthor-app/capture-action@v1
         with:
-          evidence: 'item-verification'
-          type: 'test'
+          evidence: 'unit-verification'
+          type: 'unit-test'
           switem: 'moduleA'
           format: 'junit'
           hostname: ${{vars.UPLOAD_JOB}}
@@ -50,7 +50,7 @@ jobs:
         uses: coauthor-app/capture-action@v1
         with:
           evidence: 'system-verification'
-          type: 'test'
+          type: 'integration-test'
           format: 'cucumber+ndjson'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/bdd/**'
