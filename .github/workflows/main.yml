@@ -19,7 +19,7 @@ jobs:
           evidence: 'unit-verification'
           type: 'unit-test'
           switem: 'module-core'
-          format: 'junit'
+          format: 'junit-xml'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/item/core/**'
 
@@ -30,7 +30,7 @@ jobs:
           evidence: 'unit-verification'
           type: 'unit-test'
           switem: 'module-data'
-          format: 'junit'
+          format: 'junit-xml'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/item/data/**'
 
@@ -41,7 +41,7 @@ jobs:
           evidence: 'unit-verification'
           type: 'unit-test'
           switem: 'moduleA'
-          format: 'junit'
+          format: 'junit-xml'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/item/core/**'
 
@@ -105,6 +105,6 @@ jobs:
           evidence: 'item-verification'
           type: 'test'
           switem: 'no-this-module'
-          format: 'junit'
+          format: 'junit-xml'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/item/core/**'
