@@ -16,10 +16,10 @@ jobs:
         id: upload-item-ver-core
         uses: coauthor-app/capture-action@v1
         with:
-          evidence: 'item-verification'
-          type: 'test'
+          evidence: 'unit-verification'
+          type: 'unit-test'
           switem: 'module-core'
-          format: 'junit'
+          format: 'junit-xml'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/item/core/**'
 
@@ -27,10 +27,10 @@ jobs:
         id: upload-item-ver-data
         uses: coauthor-app/capture-action@v1
         with:
-          evidence: 'item-verification'
-          type: 'test'
+          evidence: 'unit-verification'
+          type: 'unit-test'
           switem: 'module-data'
-          format: 'junit'
+          format: 'junit-xml'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/item/data/**'
 
@@ -38,10 +38,10 @@ jobs:
         id: upload-item-ver-moduleA
         uses: coauthor-app/capture-action@v1
         with:
-          evidence: 'item-verification'
-          type: 'test'
+          evidence: 'unit-verification'
+          type: 'unit-test'
           switem: 'moduleA'
-          format: 'junit'
+          format: 'junit-xml'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/item/core/**'
 
@@ -50,7 +50,7 @@ jobs:
         uses: coauthor-app/capture-action@v1
         with:
           evidence: 'system-verification'
-          type: 'test'
+          type: 'integration-test'
           format: 'cucumber+ndjson'
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/bdd/**'
@@ -88,23 +88,23 @@ jobs:
           hostname: ${{vars.UPLOAD_JOB}}
           path: 'reports/sbom/module-data.bom.json'
 
-      - name: Upload SAST Sarif
-        id: upload-sast-sarif
-        uses: coauthor-app/capture-action@v1
-        with:
-          evidence: 'cybersecurity'
-          type: 'sast'
-          format: 'sarif'
-          hostname: ${{vars.UPLOAD_JOB}}
-          path: 'reports/sarif/**'
+      # - name: Upload SAST Sarif
+      #   id: upload-sast-sarif
+      #   uses: coauthor-app/capture-action@v1
+      #   with:
+      #     evidence: 'cybersecurity'
+      #     type: 'sast'
+      #     format: 'sarif'
+      #     hostname: ${{vars.UPLOAD_JOB}}
+      #     path: 'reports/sarif/**'
     
-      - name: No Module Item Verification Result
-        id: upload-item-ver-no-module
-        uses: coauthor-app/capture-action@v1
-        with:
-          evidence: 'item-verification'
-          type: 'test'
-          switem: 'no-this-module'
-          format: 'junit'
-          hostname: ${{vars.UPLOAD_JOB}}
-          path: 'reports/item/core/**'
+      # - name: No Module Item Verification Result
+      #   id: upload-item-ver-no-module
+      #   uses: coauthor-app/capture-action@v1
+      #   with:
+      #     evidence: 'item-verification'
+      #     type: 'test'
+      #     switem: 'no-this-module'
+      #     format: 'junit-xml'
+      #     hostname: ${{vars.UPLOAD_JOB}}
+      #     path: 'reports/item/core/**'
