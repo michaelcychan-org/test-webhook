@@ -48,7 +48,7 @@ SDLC:
   Methodology: "SCRUM"
   IterationLength: 2
 RequirementManagement:
-  "Jira":
+  Jira:
     BaseURL: https://michael-test-ca.atlassian.net
     ProjectKey: CMK
 Security:
