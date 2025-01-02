@@ -1,7 +1,7 @@
 Company: Hindsight Software
 Application: Coauthor App
 ProductDescription: |
-  Coauthor, your best compliance assist...
+  Coauthor
 Market:
   - EU
   - UK
@@ -43,16 +43,14 @@ Roles:
     Members:
       - michaelcychan-org/michaelcychan-org-team
 SDLC:
-  IssueTracking:
-    Provider: "GitHub"
-    TrackingProjectLink: 
   BranchingStrategy: "Feature Branching"
   CommitMessageFormat: "Conventional Commits"
   Methodology: "SCRUM"
   IterationLength: 2
 RequirementManagement:
-  "GitHub":
-    ProjectLink: https://github.com/orgs/michaelcychan-org/projects/1
+  Jira:
+    BaseURL: https://michael-test-ca.atlassian.net
+    ProjectKey: CMK
 Security:
   PenetrationTesting:
     Required: true
