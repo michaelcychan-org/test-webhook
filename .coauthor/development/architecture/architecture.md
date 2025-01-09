@@ -7,6 +7,11 @@ title: Mermaid Graphs
 
 ### Sequence
 ```mermaid
+---
+config: 
+    look: handDrawn
+    theme: neutral
+---
 sequenceDiagram
     Alice->>+John: Hello John, how are you?
     Alice->>+John: John, can you hear me?
@@ -14,13 +19,8 @@ sequenceDiagram
     John-->>-Alice: I feel great!
 ```
 
-## C4 diagram
+## C4 diagram - fixed style for the moment
 ```mermaid
----
-config: 
-    look: handDrawn
-    theme: neutral
----
     C4Context
       title System Context diagram for Internet Banking System
       Enterprise_Boundary(b0, "BankBoundary0") {
