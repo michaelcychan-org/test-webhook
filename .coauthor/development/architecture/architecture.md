@@ -5,22 +5,31 @@ title: Mermaid Graphs
 
 ## Mermaid Diagrams:
 
-### Sequence
+### State machine
 ```mermaid
 ---
-config: 
-    look: handDrawn
+title: state diagram
+config:
     theme: neutral
+    look: handDrawn
 ---
-sequenceDiagram
-    Alice->>+John: Hello John, how are you?
-    Alice->>+John: John, can you hear me?
-    John-->>-Alice: Hi Alice, I can hear you!
-    John-->>-Alice: I feel great!
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
 ```
 
 ## C4 diagram - fixed style for the moment
 ```mermaid
+---
+title: Example C4 diagram
+config:
+    theme: forest
+---
     C4Context
       title System Context diagram for Internet Banking System
       Enterprise_Boundary(b0, "BankBoundary0") {
