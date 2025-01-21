@@ -1,9 +1,6 @@
----
-title: Mermaid Graphs
----
 # Mermaid Illustrations
 
-## Mermaid Diagrams:
+## Mermaid Diagrams
 
 ### State machine
 ```mermaid

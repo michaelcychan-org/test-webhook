@@ -1,6 +1,3 @@
----
-title: Mermaid Graphs
----
 # Mermaid Illustrations
 
 ## Mermaid Diagrams:

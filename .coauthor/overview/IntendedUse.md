@@ -1,6 +1,3 @@
----
-title: Intended Use
----
 ## Intended Use
 this application aims at ....
 
