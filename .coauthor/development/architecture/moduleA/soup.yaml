@@ -6,7 +6,7 @@ SOUP:
     PackageManager: Java
     Requirement: |
       Requirement Line 1
-      Requirement Line 2
+      This is definitely required
     VerificationReasoning: |
       Verification Reasoning Line 1
       Verification Reasoning Line 2
