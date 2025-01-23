@@ -1,6 +1,3 @@
----
-title: Module Core
----
 # Mermaid Illustrations
 
 ## Mermaid Diagrams:
