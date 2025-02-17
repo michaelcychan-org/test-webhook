@@ -1,6 +1,7 @@
 # Mermaid Illustrations
 
-## C4 diagram - fixed style for the moment
+## C4 diagram
+
 ```mermaid
 ---
 title: Example C4 diagram
