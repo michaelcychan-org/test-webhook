@@ -5,8 +5,6 @@
 ```mermaid
 ---
 title: Example C4 diagram
-config:
-    theme: forest
 ---
     C4Context
       title System Context diagram for Internet Banking System
