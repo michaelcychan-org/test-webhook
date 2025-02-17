@@ -1,7 +1,5 @@
 # Mermaid Illustrations
 
-## Mermaid Diagrams:
-
 ## C4 diagram - fixed style for the moment
 ```mermaid
 ---
