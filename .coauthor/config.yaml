@@ -1,7 +1,7 @@
 Company: Hindsight Software
 Application: Coauthor App
 ProductDescription: |
-  Best Compliance Assist - Coauthor
+  Best Compliance Assist - HS Coauthor
 Market:
   - EU
   - UK
@@ -49,7 +49,7 @@ SDLC:
   IterationLength: 2
 RequirementManagement:
   Jira:
-    BaseURL: https://michael-test-ca.atlassian.net
+    BaseURL: https://michael-test-coauthor-forge.atlassian.net
     ProjectKey: CMK
 Security:
   PenetrationTesting:
