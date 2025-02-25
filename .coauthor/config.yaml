@@ -5,6 +5,7 @@ ProductDescription: |
 Market:
   - EU
   - UK
+  - US
 SoftwareClassification:
   Questions:
     HazardousSituationPossible: false
