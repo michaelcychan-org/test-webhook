@@ -1,13 +1,10 @@
 # Mermaid Illustrations
 
-## Mermaid Diagrams:
+## C4 diagram
 
-## C4 diagram - fixed style for the moment
 ```mermaid
 ---
 title: Example C4 diagram
-config:
-    theme: forest
 ---
     C4Context
       title System Context diagram for Internet Banking System

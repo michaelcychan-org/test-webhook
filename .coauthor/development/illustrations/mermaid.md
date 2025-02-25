@@ -1,7 +1,5 @@
 # Mermaid Illustrations
 
-## Mermaid Diagrams:
-
 ### Sequence
 ```mermaid
 sequenceDiagram

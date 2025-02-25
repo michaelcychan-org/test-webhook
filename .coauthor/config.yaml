@@ -5,6 +5,7 @@ ProductDescription: |
 Market:
   - EU
   - UK
+  - US
 SoftwareClassification:
   Questions:
     HazardousSituationPossible: false
@@ -49,7 +50,7 @@ SDLC:
   IterationLength: 2
 RequirementManagement:
   Jira:
-    BaseURL: https://michael-test-ca.atlassian.net
+    BaseURL: https://michael-test-coauthor-forge.atlassian.net
     ProjectKey: CMK
 Security:
   PenetrationTesting:
